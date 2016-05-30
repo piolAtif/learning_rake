@@ -1,3 +1,5 @@
+task :default => 'morning:turn_off_alarm'
+
 namespace :morning do
  task :groom_myself do
   puts "Brushed teeth"
@@ -5,4 +7,9 @@ namespace :morning do
  end
 end
 
+namespace :morning do
+ task :turn_off_alarm do
+  puts "Turn off alarm. get up"
+ end
+end 
 
