@@ -29,3 +29,5 @@ namespace :morning do
  task :groom_myself
  task :other
 end
+
+task :default => 'turn_off_alarm'
