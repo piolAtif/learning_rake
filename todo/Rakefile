@@ -19,3 +19,13 @@ end
 task :ready_for_the_day =>[:turn_off_alarm,:groom_myself,:make_coffee] do
  puts "Ready for the day!"
 end
+
+task :other do
+ puts "baki kam dupher main"
+end
+
+namespace :morning do
+ task :turn_off_alarm
+ task :groom_myself
+ task :other
+end
