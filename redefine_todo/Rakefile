@@ -1,0 +1,8 @@
+namespace :morning do
+ task :groom_myself do
+  puts "Brushed teeth"
+  puts "Showered"
+ end
+end
+
+
