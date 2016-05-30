@@ -30,10 +30,4 @@ task :other do
  puts "baki kam dupher main"
 end
 
-namespace :morning do
- task :turn_off_alarm
- task :groom_myself
- task :other
-end
-
 task :default => 'turn_off_alarm'
